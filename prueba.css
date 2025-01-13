@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body{ 
+    color: black;
+    height: 100vh; /* para que el body ocupe toda la altura de la patalla */
+    display: flex; /* para convertir al body en un 'flex container' */
+    align-items: center; /* alinea los elementos hijos verticalmente, centrados */ 
+    justify-content: center; /* alinea los elementos hijos horizontalmente */ 
+} 
